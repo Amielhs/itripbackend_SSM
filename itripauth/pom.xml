@@ -24,10 +24,10 @@
 		<dependency>
 			<groupId>cn.itrip</groupId>
 			<artifactId>itrip-jregex</artifactId>
-			<version>1.2_01</version>
+			<version>1.0</version>
 		</dependency>
 		<dependency>
-			<groupId>cn.itrip.ccprestsms</groupId>
+			<groupId>cn.itrip</groupId>
 			<artifactId>itrip-ccprestsms</artifactId>
 			<version>1.0</version>
 		</dependency>

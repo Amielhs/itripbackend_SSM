@@ -54,8 +54,8 @@ public class AliPaymentController {
 	/**
 	 * 确认订单信息
 	 *
-	 * @param id
-	 *            订单ID
+	 * @param
+	 *
 	 * @return
 	 */
 	@ApiIgnore
@@ -73,7 +73,6 @@ public class AliPaymentController {
 			}else
 				return "notfound";
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return "error";
 		}

@@ -166,7 +166,6 @@ public class UserController {
 				return DtoUtil.returnSuccess("激活失败");	
 			}
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();			
 			return DtoUtil.returnFail("激活失败", ErrorCode.AUTH_ACTIVATE_FAILED);
 		}		
@@ -189,7 +188,6 @@ public class UserController {
 				return DtoUtil.returnSuccess("验证失败");	
 			}
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();			
 			return DtoUtil.returnFail("验证失败", ErrorCode.AUTH_ACTIVATE_FAILED);
 		}		
